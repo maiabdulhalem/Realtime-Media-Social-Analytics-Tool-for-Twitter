@@ -96,7 +96,24 @@ if you want show all tables
 
        select * from tweettable;
 
+11- after setup ODBC data sources 
 
+    1- open it
+    2- choose system DSN
+    3- choose button Add
+    4- Data Source Name: set any_name
+    5- Host: localhost
+    6- Database: casestudy "same database name in hive"
+    7- Hive Server Type: choose Hive Server 2
+    8- Test and Ok
+    
+12- after setup Power bi Desktop
+
+    1- open it
+    2- choose Get Data
+    3- choose ODBC ,then connect
+    4- choose Data Source Name "same name you set it in system DSN" ,then OK
+    5- choose Hive --> casestudy ---> tweettable ---> Load 
         
 
 
