@@ -32,7 +32,6 @@ ________________________________________________________________________________
 To Run my application please follow the next steps
 
 1- Account on Twitter developer
-![![developer account](://user-images.githubusercontent.com/74322755/117464822-52b90100-af51-11eb-8e84-d67b307dfaae.PNG)
 
 
 
