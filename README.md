@@ -115,5 +115,12 @@ if you want show all tables
     4- choose Data Source Name "same name you set it in system DSN" ,then OK
     5- choose Hive --> casestudy ---> tweettable ---> Load 
         
+___________________________________________________________________________________________________________________________________
 
+script kafka_producer.py
 
+    script to get data of tweets by keyword or hashtag or username from twitter and put it in kafka topic
+    
+spark_sentiment.py
+
+    script to get data from kafka topic , do on it sentiment analysis, reply to users on twitter based on this analysis (positive or negative) then save data as parquet files in hive table 
